@@ -1,8 +1,15 @@
 aid: dream11
 name: Dream11
-description: 'Dream11 is a company surfaced as a portfolio company of d1-capital and added to the API
-  Evangelist network as a stub for enrichment. Sector: gaming. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Dream11 is India''s largest fantasy sports platform, operated by Sporta
+  Technologies Private Limited and part of the Dream Sports group founded in 2008 by
+  Harsh Jain and Bhavit Sheth and headquartered in Mumbai. Launched as a freemium
+  fantasy game in 2012, it lets 140 million-plus users draft virtual teams and compete
+  in free and paid contests across cricket, football, kabaddi, basketball and hockey,
+  scoring on the real-world performance of the athletes they pick. Dream11 is a
+  consumer, mobile-first product with no public consumer API program; its engineering
+  organization does maintain public open-source infrastructure (Kong rate-limiter
+  and circuit-breaker plugins, the Odin deployment tool) on GitHub and publishes an
+  engineering blog.'
 url: https://raw.githubusercontent.com/api-evangelist/dream11/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +17,29 @@ x-backed-by:
 - d1-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://d11.s3.us-east-1.amazonaws.com/d11-static-pages/social_platform_preview.png
 tags:
 - Company
 - Gaming
+- Fantasy Sports
+- Sports
+- Mobile
+- Entertainment
+- India
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +49,22 @@ maintainers:
 common:
 - type: Website
   url: https://www.dream11.com
+- type: About
+  url: https://www.dream11.com/about
+- type: Support
+  url: https://www.dream11.com/games/faq
+- type: TermsOfService
+  url: https://www.dream11.com/games/terms-and-conditions
+- type: PrivacyPolicy
+  url: https://www.dream11.com/games/privacy-policy
+- type: Blog
+  url: https://blog.dream11engineering.com
+- type: GitHubOrganization
+  url: https://github.com/dream11
+- type: DomainSecurity
+  url: security/dream11-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
